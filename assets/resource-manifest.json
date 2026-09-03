@@ -1,0 +1,1371 @@
+{
+  "version": 1,
+  "release": "1.4.2",
+  "files": [
+    {
+      "path": "assets/wallpapers/ancient-fireflies-poster.jpg",
+      "size": 15664,
+      "sha256": "a9bc0d76b265ec709aadb4d1c3c955aa1acacc64317fd3d5cb26498074dc5470"
+    },
+    {
+      "path": "assets/wallpapers/ancient-fireflies.mp4",
+      "size": 5184268,
+      "sha256": "1cc472a79da688abced40bde907b7779c92d70f110038e1442b7839ee2273214"
+    },
+    {
+      "path": "assets/wallpapers/anime-girl-poster.jpg",
+      "size": 15695,
+      "sha256": "544424446273c51629a9f6d11f2792c00a5bed16ea3848d02cfa09f0dd37a814"
+    },
+    {
+      "path": "assets/wallpapers/anime-girl.mp4",
+      "size": 7077803,
+      "sha256": "19b5914fe65b891b1080a119e67c0849e7b7f57b9ecc4ad07eebe8085a01957a"
+    },
+    {
+      "path": "assets/wallpapers/anime-nocturne-poster.jpg",
+      "size": 25096,
+      "sha256": "06b4cc879a17ba3fa50ee37093cb95156f1285f9f8d1237388c597f1e6b6965d"
+    },
+    {
+      "path": "assets/wallpapers/anime-nocturne.mp4",
+      "size": 49170655,
+      "sha256": "c557add2fcdf40d60e2d9f82cb22c2b64cf67a6a746dd1f449a6d72900312f7b"
+    },
+    {
+      "path": "assets/wallpapers/blue-portrait-poster.jpg",
+      "size": 11214,
+      "sha256": "ef5c3bf4ee34bd9851912723bbd776240b088c2fbcf2e3fb644d79ca24d52449"
+    },
+    {
+      "path": "assets/wallpapers/blue-portrait.jpg",
+      "size": 1186721,
+      "sha256": "65c82222f9e46f0189021da5f39234c7dcee98060f240c3ddd6d553d7e63385b"
+    },
+    {
+      "path": "assets/wallpapers/cloud-bench-poster.jpg",
+      "size": 21187,
+      "sha256": "88f2a6da16e8e812f9d4d629c3378cc928fe64369954d0da73a105fd9e334bd9"
+    },
+    {
+      "path": "assets/wallpapers/cloud-bench.jpg",
+      "size": 2229457,
+      "sha256": "4ee7c90d353f1a76c935b5a6cf782706de7eb06841fedfea7bbd7d39ba33e67b"
+    },
+    {
+      "path": "assets/wallpapers/color-light-poster.jpg",
+      "size": 20927,
+      "sha256": "bd90c4d5aefb971c15d390052ca16336c2f44f1a0eb7b92716fc93ae35e4b34e"
+    },
+    {
+      "path": "assets/wallpapers/color-light.mp4",
+      "size": 20375525,
+      "sha256": "fd809617a18643cd7a21fa358548ff55dc56600174e45b19e1158650d218be07"
+    },
+    {
+      "path": "assets/wallpapers/dusky-gaze-poster.jpg",
+      "size": 17944,
+      "sha256": "3c008c341f5114b529b1380d64d075cc5b6e2ee97f5882c228e4065c3719c564"
+    },
+    {
+      "path": "assets/wallpapers/dusky-gaze.mp4",
+      "size": 33377230,
+      "sha256": "4288582c933afd0fc19302407a9556e38bf2b3906f97ae1fd6092110b3a65c44"
+    },
+    {
+      "path": "assets/wallpapers/home-cat-poster.jpg",
+      "size": 11748,
+      "sha256": "2d123abf466b6c668e7096c67d2cae9f5037f34945eeca8e8c83b1759ae6594b"
+    },
+    {
+      "path": "assets/wallpapers/home-cat.jpg",
+      "size": 884646,
+      "sha256": "81ecf0ebe490d899ff53d69ae7d32c2e4481f7febacf78e86f7ad91e5e275a28"
+    },
+    {
+      "path": "assets/wallpapers/ink-aspiration-poster.jpg",
+      "size": 7720,
+      "sha256": "0c056ccaea3887c590afc05e087058d3bdf2d7f3f054e890b07f7fdf257d597d"
+    },
+    {
+      "path": "assets/wallpapers/ink-aspiration.jpg",
+      "size": 2048513,
+      "sha256": "a7f62bd9f6be46b84d04f57ae5fa224b6d2db0ed7d1dabc88940ee4656f78b7d"
+    },
+    {
+      "path": "assets/wallpapers/krabs-vault-poster.jpg",
+      "size": 29388,
+      "sha256": "6d8a0a01858581c88e810a44f54428a23a26fbff6324a45526a677176e9c32b3"
+    },
+    {
+      "path": "assets/wallpapers/krabs-vault.jpg",
+      "size": 3335595,
+      "sha256": "a0562ff55773fb8842ebe85cd77911da2720bd7ac71d819192dcfe146f7d0742"
+    },
+    {
+      "path": "assets/wallpapers/kuroha-lines-poster.jpg",
+      "size": 24224,
+      "sha256": "6cf454693d821d83784a0a02372d3027699645cc26b414f827599b95ca138658"
+    },
+    {
+      "path": "assets/wallpapers/kuroha-lines.mp4",
+      "size": 30249196,
+      "sha256": "0d06a9f72d5154b641110fa801dc2cc7932af0ab96ee5dfb34df03b63b1722a2"
+    },
+    {
+      "path": "assets/wallpapers/ocean-cat-poster.jpg",
+      "size": 12805,
+      "sha256": "c7e5c324f957ebf5bf32e38aa55b5a0111c3be5da6d16c75e4839f9a57115c18"
+    },
+    {
+      "path": "assets/wallpapers/ocean-cat.jpg",
+      "size": 1379458,
+      "sha256": "9d1244022b06353d3489ec60d257f8c7263a503ecf2bf7db50b5990f611110da"
+    },
+    {
+      "path": "assets/wallpapers/pokemon-smile-poster.jpg",
+      "size": 14866,
+      "sha256": "f87a70a2be81a272a3c3eea21d67fa7214491bc1cb116303ad2caee2b7d5074b"
+    },
+    {
+      "path": "assets/wallpapers/pokemon-smile.mp4",
+      "size": 27357480,
+      "sha256": "f052b5f72767158644666ca8ff33a7606e0d3bbea9f2f1d96d415566506807ca"
+    },
+    {
+      "path": "assets/wallpapers/rain-window-poster.jpg",
+      "size": 17291,
+      "sha256": "ea76a19f2b9c18b8ca769fc629e7f6794c319f2e0dec0f5785bf40d6dbb7dcba"
+    },
+    {
+      "path": "assets/wallpapers/rain-window.jpg",
+      "size": 3936046,
+      "sha256": "878f28dd4cd0857de7c4994bcb395e8e203e9dfd10ef4726251bc331ac21b29d"
+    },
+    {
+      "path": "assets/wallpapers/rainy-sheep-poster.jpg",
+      "size": 12451,
+      "sha256": "785a05a96c7276e8279e8ae9bb0d7b684109517160db5666f25ca35ffe644db4"
+    },
+    {
+      "path": "assets/wallpapers/rainy-sheep.mp4",
+      "size": 37121109,
+      "sha256": "51fb12a41fd19a4d1dd53dca2c4a94626480d5d5781ce9fe7536ce0b4b728af0"
+    },
+    {
+      "path": "assets/wallpapers/summer-sky-poster.jpg",
+      "size": 17425,
+      "sha256": "11aac0f17617b1c32602d7eff131f2c6c62f7300234cd4af79c8b677631bbe7e"
+    },
+    {
+      "path": "assets/wallpapers/summer-sky.jpg",
+      "size": 1154931,
+      "sha256": "98a705409849edf5daa1f9f589aaa700233b2f5889edd8d47b389459fd4da94b"
+    },
+    {
+      "path": "assets/wallpapers/supplied-manifest.json",
+      "size": 4218,
+      "sha256": "10b6aa5dd65e97f8717b7ac7da0eeb1c2c452890a8a9ccfe3234e127ddd53c59"
+    },
+    {
+      "path": "assets/wallpapers/ultra-tide-poster.jpg",
+      "size": 18211,
+      "sha256": "ef5593dffa2b83b391e8efe671c3d59c5fc40dbdd5f541e4cfbe4d61fa4d06dd"
+    },
+    {
+      "path": "assets/wallpapers/ultra-tide.jpg",
+      "size": 2693515,
+      "sha256": "c902cf1d3064102f4277fc9c38ed5203861517995086d5039b2f8a5996101ceb"
+    },
+    {
+      "path": "bundled-library/chen/001. 不如回家喝自来水 - 陈楚生 · 王赫野.mp3",
+      "size": 6450279,
+      "sha256": "745b54678f5c5d147f22e75f9f7ff247460dafcd6f8e3dee3f1696887a81b3b3"
+    },
+    {
+      "path": "bundled-library/chen/002. 风起时，想你 - 陈楚生.mp3",
+      "size": 7061919,
+      "sha256": "e061df294fe4bff0543f282e7fc6604102d7564844b88313bd7265238e27b0d3"
+    },
+    {
+      "path": "bundled-library/chen/003. 庙堂之外 - 陈楚生.mp3",
+      "size": 9018135,
+      "sha256": "3061a002cb4638510c8f4742f681ebb4d573a30a93ae51d84c5952bca97e0352"
+    },
+    {
+      "path": "bundled-library/chen/004. 无题 - 陈楚生.mp3",
+      "size": 8392095,
+      "sha256": "045c022527ab0e8f0a9527b52a95034eeb1f8abb397bd2e0240e33e34774bedf"
+    },
+    {
+      "path": "bundled-library/chen/005. 有没有人告诉你 - 陈楚生.mp3",
+      "size": 8632911,
+      "sha256": "e21aad564c2e31c746b933af09fdc0b2d14da09bc26082dfb3235171e04f77f8"
+    },
+    {
+      "path": "bundled-library/chen/006. 云天明 - 陈楚生.mp3",
+      "size": 7025967,
+      "sha256": "0fa03aaa5e4f642d1202987647c4ce4b86c8bdc9eb8cceeabab5ea885a7b831d"
+    },
+    {
+      "path": "bundled-library/english/001. STAY - Kid Laroi · Justin Bieber.mp3",
+      "size": 4401101,
+      "sha256": "df0928cdb6a0d1851c33e1721ab532f3c1b9799f13d122a9320fc43e65db4fb3"
+    },
+    {
+      "path": "bundled-library/english/002. Love Story - Taylor Swift.mp3",
+      "size": 7456412,
+      "sha256": "7fc459fbdb15254e55752b2d169d41c15362939c4f957a6ae413e0b2d5a73cf1"
+    },
+    {
+      "path": "bundled-library/english/003. Take Me Hand - DAISHI DANCE · Cécile Corbel.mp3",
+      "size": 7576568,
+      "sha256": "64134d708489752d4bdb3b06563c19d30b93b39ab7e226530b487ae75c4c9d3c"
+    },
+    {
+      "path": "bundled-library/english/004. Please Don't Go - Joel Adams.mp3",
+      "size": 6559373,
+      "sha256": "87f75a918f1529198c7581c58a9424fcf534c4732a182971395535268ce7ebac"
+    },
+    {
+      "path": "bundled-library/english/005. Empty Love - Lulleaux · Kid Princess.mp3",
+      "size": 5435587,
+      "sha256": "9fe734dd9c2d5542a4fd72fe334488106a0da95dd9b5db67e77f151d1210fedc"
+    },
+    {
+      "path": "bundled-library/english/006. Good Time - Owl City · Carly Rae Jepsen.mp3",
+      "size": 6399146,
+      "sha256": "131c7f83e58ab0280bf827b00c610cef32c08ba1f9169c54c535ff95178d83ac"
+    },
+    {
+      "path": "bundled-library/english/007. Normal No More - Tysm.mp3",
+      "size": 6099921,
+      "sha256": "f292ac1bfcc3eda86ea81c77544c5d2a050f997dbb7c1415dde3f2906f360f25"
+    },
+    {
+      "path": "bundled-library/english/008. Run Free - Deep Chills · IVIE.mp3",
+      "size": 5474331,
+      "sha256": "fb6d5199a51e8c0dc6758315c08cf437d7f99bae4014570fd120b415497ff4ef"
+    },
+    {
+      "path": "bundled-library/english/009. Closer - The Chainsmokers · Halsey.mp3",
+      "size": 7734430,
+      "sha256": "02466bbaf0f08b974e8ebb32a6935f1f9f62ade58824eb27266802a052fbd088"
+    },
+    {
+      "path": "bundled-library/english/010. Dancing with Your Ghost - Sasha Alex Sloan.mp3",
+      "size": 5995273,
+      "sha256": "ab7f3ca7bdd408f491e7303b5e0e8e7afe9b24dfebfcf304e2bedd8a0b922741"
+    },
+    {
+      "path": "bundled-library/english/011. The Way I Still Love You - Reynard Silva.mp3",
+      "size": 6719195,
+      "sha256": "2aa331e97441efd44f5815eadccaffb2c0c4aa5df13f94858da3cc87a11a4fcf"
+    },
+    {
+      "path": "bundled-library/english/012. Because Of You - Kelly Clarkson.mp3",
+      "size": 7189451,
+      "sha256": "08de0bc49aba7e8cc99ffadbaeb469c0ddc2414dc4876ded7a30571b72308f1c"
+    },
+    {
+      "path": "bundled-library/english/013. East of Eden - Zella Day.mp3",
+      "size": 5747389,
+      "sha256": "256478e4663354e501f43ea152bd165ac349ec9005c68d34eea7158ddce6b27d"
+    },
+    {
+      "path": "bundled-library/english/014. That Girl - Olly Murs.mp3",
+      "size": 5689048,
+      "sha256": "dfcef3f39ecb276fa5102f40fd16f023f57e45586b794f4f0d79901ff48912cf"
+    },
+    {
+      "path": "bundled-library/english/015. We Don't Talk Anymore - Charlie Puth · Selena Gomez.mp3",
+      "size": 7021940,
+      "sha256": "450a5dc820f389535d84aae4152b7458c150fab9c654a6f7f27be09a9733e5a5"
+    },
+    {
+      "path": "bundled-library/english/016. What Makes You Beautiful - One Direction.mp3",
+      "size": 6385163,
+      "sha256": "1711a293a2d7ce30c761c5c4fe3802bb060302b8d73ef443e6bedca6f2a2d5fb"
+    },
+    {
+      "path": "bundled-library/english/017. GRRRLS - AViVA.mp3",
+      "size": 7306805,
+      "sha256": "7b68647bb57500d4f2280412b1498b8d85fa0353b8cbeccdb6fa62ea9c0ed5a7"
+    },
+    {
+      "path": "bundled-library/english/018. Shots - Imagine Dragons.mp3",
+      "size": 7207214,
+      "sha256": "e8cfde339dfd860f45315dee680328ae9473183dd4ce68f093119656f3fd017c"
+    },
+    {
+      "path": "bundled-library/english/019. This Is What You Came For - Calvin Harris · Rihanna.mp3",
+      "size": 6558587,
+      "sha256": "dc122dc98aef6f277146dbc907c51702bb38d44ec385d122d72cc03cd427bd80"
+    },
+    {
+      "path": "bundled-library/english/020. So Far Away - Martin Garrix · David Guetta · Jamie Scott · Romy Dya.mp3",
+      "size": 5615243,
+      "sha256": "ea78d9d149eb2c025ce9100593af48f5c82ef9d4ffd75c9f1789ba9ef2d86d55"
+    },
+    {
+      "path": "bundled-library/english/021. I Love You So - The Walters.mp3",
+      "size": 4017923,
+      "sha256": "9d134f62bf28d8e83b7a4f00d00980f5b8b3328023e9d0812a136ffdc9b81a09"
+    },
+    {
+      "path": "bundled-library/english/022. Psycho, Pt. 2 - Russ.mp3",
+      "size": 4146155,
+      "sha256": "a16e4105bf8018e6c174d0c5e81a0de92978ec4ae169f97fd49a437c4e3baf61"
+    },
+    {
+      "path": "bundled-library/english/023. Nothin' on Me - Leah Marie Perez.mp3",
+      "size": 5652251,
+      "sha256": "b88063931508352511ea4967d37519a0c1b7117f5a57a2f2d157f402f7996ceb"
+    },
+    {
+      "path": "bundled-library/english/024. Right Now(Na Na Na) - Akon.mp3",
+      "size": 8312967,
+      "sha256": "e510ff745ef0006635534ef1c54c62fbf22c9d881768c0930a31607cdf086c71"
+    },
+    {
+      "path": "bundled-library/english/025. See You Again - Wiz Khalifa · Charlie Puth.mp3",
+      "size": 6815776,
+      "sha256": "7da9290d7f60c0c078a28ba79009ebbb39e3b4f99e2ab8afb5081fbd094846fd"
+    },
+    {
+      "path": "bundled-library/english/026. Apologize - OneRepublic.mp3",
+      "size": 5265597,
+      "sha256": "1400ae45c40149fb5e9fee071cbf45c05afb2ef3e06fb9e9ee3e1dbd3ac9900e"
+    },
+    {
+      "path": "bundled-library/english/027. Why Would I Ever - Paula DeAnda.mp3",
+      "size": 6091457,
+      "sha256": "14bbf12c07a19131fdbc51f338cecbe7cb5d1c5865448132dabadb0e91e571c0"
+    },
+    {
+      "path": "bundled-library/english/028. The Other Side Of Paradise - Glass Animals.mp3",
+      "size": 9160955,
+      "sha256": "0ef5816152b5c2c2fd26cf309a7f8cf2ec0cbcec57da7dad051ac2b8aa38d8f1"
+    },
+    {
+      "path": "bundled-library/english/029. The Cure - Lady Gaga.mp3",
+      "size": 6213318,
+      "sha256": "d8ab233c72985eb8de10cad7cff62688718aa314d24ef4aad08785f7dfb1edff"
+    },
+    {
+      "path": "bundled-library/english/030. Lone Ranger - Rachel Platten.mp3",
+      "size": 5056949,
+      "sha256": "0ac1254f4df0fec55e11405a623581c870eb0d9952091003749ad75bb9124f5e"
+    },
+    {
+      "path": "bundled-library/english/031. Whistle - Flo Rida.mp3",
+      "size": 6268679,
+      "sha256": "24cbe96fc686e4a9e64dd407d847a017134a51c22de3cae77ec7ea41a6940d03"
+    },
+    {
+      "path": "bundled-library/english/032. Free Loop - Daniel Powter.mp3",
+      "size": 6131597,
+      "sha256": "0d6aa2eb370629f798c9a308cdc9ee2c8ac4a2963321a89815cabcf28daef7ed"
+    },
+    {
+      "path": "bundled-library/english/033. Wild - Monogem.mp3",
+      "size": 6536205,
+      "sha256": "d0dd2e8b8b56afb2f7df82e8d3693f77e975a184b34d80f5ae0cdd852b326b66"
+    },
+    {
+      "path": "bundled-library/english/034. Far Away From Home - Groove Coverage.mp3",
+      "size": 7248539,
+      "sha256": "7dab4d636951ed179fd612321f61a5fd53a46f4e761c45d175d87fc968bc9a9a"
+    },
+    {
+      "path": "bundled-library/english/035. Someone Like You - Adele.mp3",
+      "size": 8039875,
+      "sha256": "de4e9ba5311529b64f6b54adf8571084e1c70ae588f5cf3696f7d2709559ba6a"
+    },
+    {
+      "path": "bundled-library/english/036. Blinding Lights - The Weeknd.mp3",
+      "size": 6537923,
+      "sha256": "4cbf5126d6aa2eb881825c2603f106a6101d3b2244607ffc10fd5fdd0ff77388"
+    },
+    {
+      "path": "bundled-library/english/037. Counting Stars - OneRepublic.mp3",
+      "size": 8971007,
+      "sha256": "4608da9045b974e0bacd8aa5f1c2a35556b919c76be24128fbebf7552a13a5d4"
+    },
+    {
+      "path": "bundled-library/english/038. Hymn For The Weekend - Coldplay · Beyoncé.mp3",
+      "size": 7828475,
+      "sha256": "f88024179f710f5dae9c4d69a62b7724ec5cb5a50418cabc66e8a66928612ee9"
+    },
+    {
+      "path": "bundled-library/english/039. Payphone - Maroon 5 · Wiz Khalifa.mp3",
+      "size": 7997195,
+      "sha256": "2fcaba1ffe28d20a86501afff583a636a1d75ae856238b807c0167a74c22c4ba"
+    },
+    {
+      "path": "bundled-library/english/040. Sugar - Maroon 5.mp3",
+      "size": 8880107,
+      "sha256": "9a21e6d804d4045380df9f085b9cf3c29e15758c662292b7733ce62fb8de6115"
+    },
+    {
+      "path": "bundled-library/jay/001. 晴天 - 周杰伦.mp3",
+      "size": 8165147,
+      "sha256": "75a5710516953ba6c1fcbb777490868fed2ccf445df8bfc51f28085cacc35ede"
+    },
+    {
+      "path": "bundled-library/jay/002. 夜曲 - 周杰伦.mp3",
+      "size": 7788011,
+      "sha256": "81e71b3d9f40ae36042fe01512dad99c1c6f3391673c76c353b31a575aaf99d0"
+    },
+    {
+      "path": "bundled-library/jay/003. 星晴 - 周杰伦.mp3",
+      "size": 8344283,
+      "sha256": "d0257c418122ba7be80cd6ec9ea41876f328fe38f41db93b875d46e28661513a"
+    },
+    {
+      "path": "bundled-library/jay/004. 七里香 - 周杰伦.mp3",
+      "size": 9707627,
+      "sha256": "dc7896e8e121aab86acc01824813bcd489696ce07caf734d0c38aa2b1d802695"
+    },
+    {
+      "path": "bundled-library/jay/005. 花海 - 周杰伦.mp3",
+      "size": 7998395,
+      "sha256": "419cb17a10f69910946fec5a141da1f28ad23960f55e99b67f9d6fac60a042ee"
+    },
+    {
+      "path": "bundled-library/jay/006. 等你下课 - 周杰伦.mp3",
+      "size": 8567915,
+      "sha256": "c84c91751862e1bec9ed3a058380cbe452536138e341cfdd5365ab400b39daba"
+    },
+    {
+      "path": "bundled-library/jay/007. 稻香 - 周杰伦.mp3",
+      "size": 7160267,
+      "sha256": "99981356eec292a64d073a693cdde0aaeb61f2b9a2a00656ad380e419a8e4cd8"
+    },
+    {
+      "path": "bundled-library/jay/008. 东风破 - 周杰伦.mp3",
+      "size": 10044491,
+      "sha256": "ad1e06124ed0f29a52a0c39996ba2933ca87359e9e39a3c2a67d9dcbff696c19"
+    },
+    {
+      "path": "bundled-library/jay/009. 珊瑚海 - 周杰伦 · Lara梁心颐.mp3",
+      "size": 7748651,
+      "sha256": "d0eae9f2ad1db6235f2ccb2cd50c9fecc325d04545582dfe253ec3b35f1fe131"
+    },
+    {
+      "path": "bundled-library/jay/010. 以父之名 - 周杰伦.mp3",
+      "size": 10184171,
+      "sha256": "55ddaec9c89987d6d05623324569954f9e29c1f16fb24a473ff48c3370296a9c"
+    },
+    {
+      "path": "bundled-library/jay/011. 兰亭序 - 周杰伦.mp3",
+      "size": 7942763,
+      "sha256": "9cf6ab868a9e58f142d3e3b6b84c62bf4c5259697cc1c1f4dbde78211f994562"
+    },
+    {
+      "path": "bundled-library/jay/012. 半岛铁盒 - 周杰伦.mp3",
+      "size": 10233899,
+      "sha256": "3204d2993b773c03ddb3af11e2e0feec15ba7e430cc5a3c026f092de4c825c24"
+    },
+    {
+      "path": "bundled-library/jay/013. 发如雪 - 周杰伦.mp3",
+      "size": 10004747,
+      "sha256": "9b7c344b750d648cf02ceec55845399fb45431acb0974a7e4dd3277809b901ce"
+    },
+    {
+      "path": "bundled-library/jay/014. 可爱女人 - 周杰伦.mp3",
+      "size": 7627883,
+      "sha256": "745e76f3492992f7f8bd8fe01da62ba972447983135f13702da259600dc9ce90"
+    },
+    {
+      "path": "bundled-library/jay/015. 听妈妈的话 - 周杰伦.mp3",
+      "size": 8817515,
+      "sha256": "aa1faa4e2713c4b16b3af33c8d77d5b2708ef5fc9645e71d52964057e3754089"
+    },
+    {
+      "path": "bundled-library/jay/016. 听见下雨的声音 - 周杰伦.mp3",
+      "size": 8845163,
+      "sha256": "004680bb0be1f66809bb834793b461be91be592a04f10bc22aafeb228f516c6c"
+    },
+    {
+      "path": "bundled-library/jay/017. 告白气球 - 周杰伦.mp3",
+      "size": 6791579,
+      "sha256": "cbc4b92bc01d4bfa38581e775b340f178f10438a2bce6ab3674c8222fe03cab3"
+    },
+    {
+      "path": "bundled-library/jay/018. 园游会 - 周杰伦.mp3",
+      "size": 7924811,
+      "sha256": "c8329482267cafea8d919d5f0b37a6f68d1e446ce36b259e699d8e3ec02dfab0"
+    },
+    {
+      "path": "bundled-library/jay/019. 不能说的秘密 - 周杰伦.mp3",
+      "size": 9046235,
+      "sha256": "f3117eadbeb18484978e37bccb7879b6c85cfc3c91629a42578e13dec5251f0c"
+    },
+    {
+      "path": "bundled-library/jay/020. 她的睫毛 - 周杰伦.mp3",
+      "size": 7327019,
+      "sha256": "eafcbb24fddf4e636bee0a112bf540e1afe4370ad0a16414e64b52ade403340f"
+    },
+    {
+      "path": "bundled-library/jay/021. 安静 - 周杰伦.mp3",
+      "size": 9620939,
+      "sha256": "1663fa00308b8cce600a96678d27e872913703e0e1f080ebf289a1449390013b"
+    },
+    {
+      "path": "bundled-library/jay/022. 彩虹 - 周杰伦.mp3",
+      "size": 7991675,
+      "sha256": "e2d60b19221bdf9ee9e7e7f62ae6adf4c2c68c12cb5a220fc0c252d9064025b6"
+    },
+    {
+      "path": "bundled-library/jay/023. 心雨 - 周杰伦.mp3",
+      "size": 8549387,
+      "sha256": "a72b1e7ec382e008fa8138e4d1679be4d1e6f4d9e5bfe472d2c8fd39e270297b"
+    },
+    {
+      "path": "bundled-library/jay/024. 我不配 - 周杰伦.mp3",
+      "size": 9109355,
+      "sha256": "d63f76eb3e4c5a7018e2820cff67cdd1b46c499ab08cedaf0878149983627d77"
+    },
+    {
+      "path": "bundled-library/jay/025. 手写的从前 - 周杰伦.mp3",
+      "size": 9047435,
+      "sha256": "b351fbbf872fbac80151ae17e86d0e012016bd60e098a8b7fd5b82ee2763d70f"
+    },
+    {
+      "path": "bundled-library/jay/026. 搁浅 - 周杰伦.mp3",
+      "size": 7358699,
+      "sha256": "53520e57fe80ccd7dbcdd3b436c7a462299993eebda04b97b1f019502a015d08"
+    },
+    {
+      "path": "bundled-library/jay/027. 断了的弦 - 周杰伦.mp3",
+      "size": 9331931,
+      "sha256": "790787f928200aab25f94b95f1d2c0761fa342f7be3cadc51bef1c29efc23db2"
+    },
+    {
+      "path": "bundled-library/jay/028. 明明就 - 周杰伦.mp3",
+      "size": 8121803,
+      "sha256": "8dc887760f80ffd34e77774488b84db442e577df19fcab63f4678c19cf6c2e1c"
+    },
+    {
+      "path": "bundled-library/jay/029. 一路向北 - 周杰伦.mp3",
+      "size": 9524459,
+      "sha256": "5fcec44c945b326558963668712d6437b100bbf17ebc8455b7cdea054e92b10c"
+    },
+    {
+      "path": "bundled-library/jay/030. 最长的电影 - 周杰伦.mp3",
+      "size": 7143947,
+      "sha256": "5b8e4b583ff2c193c45815003a826c47f30d7b2006bd6f2cdcc9e914578eb03b"
+    },
+    {
+      "path": "bundled-library/jay/031. 枫 - 周杰伦.mp3",
+      "size": 8738411,
+      "sha256": "a452644f9e90932d0095607248a53c6e564999148d15fc21ae9b8ba88f3a4f89"
+    },
+    {
+      "path": "bundled-library/jay/032. 浪漫手机 - 周杰伦.mp3",
+      "size": 7674443,
+      "sha256": "44b0faa47d2ebe3db7c7e1edb5b957bdc0c77b3ba53aae9a004549ff062ca8b1"
+    },
+    {
+      "path": "bundled-library/jay/033. 烟花易冷 - 周杰伦.mp3",
+      "size": 8264363,
+      "sha256": "51301df5ceff3e0e6c097f031441a56942c5ca4b37fb09071983bfe2aaea6d14"
+    },
+    {
+      "path": "bundled-library/jay/034. 爱在西元前 - 周杰伦.mp3",
+      "size": 7836107,
+      "sha256": "68b39e1d32246cbbe9cf101a926d892d1c0ed2e0d8713c59aeed11c4d640801c"
+    },
+    {
+      "path": "bundled-library/jay/035. 甜甜的 - 周杰伦.mp3",
+      "size": 8064683,
+      "sha256": "af3c6f56069ebfe050e71645a366eccd02029fef01cefd22832030849bccc9ec"
+    },
+    {
+      "path": "bundled-library/jay/036. 简单爱 - 周杰伦.mp3",
+      "size": 8882459,
+      "sha256": "17cee3e8e1033435c5c8fcc0739226afded76199894d047651af0b114b6a805c"
+    },
+    {
+      "path": "bundled-library/jay/037. 红尘客栈 - 周杰伦.mp3",
+      "size": 8541083,
+      "sha256": "b8e7b82d0b05fbb25cb33cb22cf005865bba769f438b110d0c254600a4b365f4"
+    },
+    {
+      "path": "bundled-library/jay/038. 给我一首歌的时间 - 周杰伦.mp3",
+      "size": 8371115,
+      "sha256": "5e2ba2d90711f2e770f8430ffa2a49b16639e4fc3fa8681c4624f5dd76ac3c95"
+    },
+    {
+      "path": "bundled-library/jay/039. 菊花台 - 周杰伦.mp3",
+      "size": 8974379,
+      "sha256": "ee67a977f1c7f8aec628b74fffa57fc96e74a2d8af4f0689b142a1186431bc4a"
+    },
+    {
+      "path": "bundled-library/jay/040. 蒲公英的约定 - 周杰伦.mp3",
+      "size": 7665323,
+      "sha256": "f92eb027615d6aae5e5450a0c7a73f70f394ceb3caf4dd3e9c1749d3369fa1ef"
+    },
+    {
+      "path": "bundled-library/jay/041. 轨迹 - 周杰伦.mp3",
+      "size": 10108379,
+      "sha256": "ae46bedad5fa022ff3f4f78ae8c5dc7cb8c5d96dc075daee7f714d3d45cbab07"
+    },
+    {
+      "path": "bundled-library/jay/042. 退后 - 周杰伦.mp3",
+      "size": 8275643,
+      "sha256": "01cbbadf84d3c28e44b0f0b2a145604c6321180ae70e38bf28508414613dd7ad"
+    },
+    {
+      "path": "bundled-library/jay/043. 阳光宅男 - 周杰伦.mp3",
+      "size": 7051955,
+      "sha256": "bee2ba7377f6775396d07515b6c6b3675f8e5dfcabea60ba1ae612a9237b5250"
+    },
+    {
+      "path": "bundled-library/jay/044. 青花瓷 - 周杰伦.mp3",
+      "size": 7882235,
+      "sha256": "cc03605d709a614513471937c3ebc1cc7de245948af552aaf9d0fb131bace68f"
+    },
+    {
+      "path": "bundled-library/jay/045. 黑色幽默 - 周杰伦.mp3",
+      "size": 8080619,
+      "sha256": "8b0249d9babbc0300bc7e79a50d72c7e74bd07c409d9b63738737a8e7cd95f49"
+    },
+    {
+      "path": "bundled-library/jay/046. 黑色毛衣 - 周杰伦.mp3",
+      "size": 8303051,
+      "sha256": "12fe4e72e3519ae0e52054d89f389ea1b25027dd83e404d1652feb8430fde30a"
+    },
+    {
+      "path": "bundled-library/jay/047. 龙卷风 - 周杰伦.mp3",
+      "size": 7798091,
+      "sha256": "c0cfa610b5edbfbead41f84d7bfc9b338fa953c586bf2a36335d92d5747fd873"
+    },
+    {
+      "path": "bundled-library/jay/048. 乌克丽丽 - 周杰伦.mp3",
+      "size": 5752235,
+      "sha256": "fb8325fb2ae6c728b7ce47e455a81018efee262ac1c8240a372095ad973796ae"
+    },
+    {
+      "path": "bundled-library/jay/049. 不该 - 周杰伦 · 张惠妹.mp3",
+      "size": 9119243,
+      "sha256": "94e4cf8f592178ed04a6d31ec44d514f2aca828fe80c65fae77051fea0e35e56"
+    },
+    {
+      "path": "bundled-library/jay/050. 爱的飞行日记 - 周杰伦 · 杨瑞代.mp3",
+      "size": 8252531,
+      "sha256": "7ff57e6a35ba8d48f657a732eec9ce8599e6b6dff67395536cae15f371a046b5"
+    },
+    {
+      "path": "bundled-library/mandarin/001. 大城小爱 - 王力宏.mp3",
+      "size": 6445893,
+      "sha256": "65d25287d536512fac3a6caf7dd94b456fc1a384d684ae76078c33fc5be23d36"
+    },
+    {
+      "path": "bundled-library/mandarin/002. 爱情转移 - 陈奕迅.mp3",
+      "size": 7086924,
+      "sha256": "fb9e8304a268828829b11880ca728a96639ff65ac5be00705ca8a945d934d7f2"
+    },
+    {
+      "path": "bundled-library/mandarin/003. 东风破 - 周杰伦.mp3",
+      "size": 8919379,
+      "sha256": "05fe6b1968a11cc93e9b9d098d3dd6aec98adb2c6b610dbf3b1a6be3041392eb"
+    },
+    {
+      "path": "bundled-library/mandarin/004. 该死的温柔 - 马天宇.mp3",
+      "size": 6657156,
+      "sha256": "67e3c32526af95ad4245250a143056b62012fedc0813dbe304e7d913deaec6ee"
+    },
+    {
+      "path": "bundled-library/mandarin/005. 寂寞沙洲冷 - 周传雄.mp3",
+      "size": 7824035,
+      "sha256": "a8bb195d37d20257db5d840664fde6e88f2574982937a405f7841ccb0e60250c"
+    },
+    {
+      "path": "bundled-library/mandarin/006. 倔强 - 五月天.mp3",
+      "size": 7352856,
+      "sha256": "781bead69d8a735ba6664be8bb2938a3a872b6670f2d63a82d3c6878b2b507c5"
+    },
+    {
+      "path": "bundled-library/mandarin/007. 老人与海 - 海鸣威 · 吴琼.mp3",
+      "size": 7580533,
+      "sha256": "7c7af3b2d81174e64e9b98a062bfb58821e5a57140099df5c513122d3f775839"
+    },
+    {
+      "path": "bundled-library/mandarin/008. 给我一首歌的时间 - 周杰伦.mp3",
+      "size": 7479012,
+      "sha256": "8136deb980687d05c7b77771d305f3e1b60dff54c75ca23232a505f41af5de41"
+    },
+    {
+      "path": "bundled-library/mandarin/009. 画心 - 张靓颖.mp3",
+      "size": 12122854,
+      "sha256": "e582c7ebc4019915acafece17a62a49469e4fd427bf8329409af83cd28fa9a25"
+    },
+    {
+      "path": "bundled-library/mandarin/010. 红豆 - 王菲.mp3",
+      "size": 7064835,
+      "sha256": "b1291c65821ffe80056f190dfdca5f590addf8f80c790af72f59e001efef3d8f"
+    },
+    {
+      "path": "bundled-library/mandarin/011. 稻香 - 周杰伦.mp3",
+      "size": 6396327,
+      "sha256": "a23ae43e84d2d5b9a50719c59d5b1493d6a53be16347b8c30d0e1b1fa513906d"
+    },
+    {
+      "path": "bundled-library/mandarin/012. 挥着翅膀的女孩 - 容祖儿.mp3",
+      "size": 5300238,
+      "sha256": "a3faab5a3fe624773799a082e719a9adb3b1f4497240f05d92c3551bfcc4dfcb"
+    },
+    {
+      "path": "bundled-library/mandarin/013. 爱的主打歌 - 萧亚轩.mp3",
+      "size": 8301260,
+      "sha256": "28b73a73ad9d6ea139d525d0407fca1035b2fccdac128181c49afbbeef7e5935"
+    },
+    {
+      "path": "bundled-library/mandarin/014. Lydia - F.I.R.飞儿乐团.mp3",
+      "size": 6590804,
+      "sha256": "2810e6235cf20f1ea732b5931ffa2ff47114ba7cb053888d3fe34da2ecfeddcf"
+    },
+    {
+      "path": "bundled-library/mandarin/015. 欧若拉 - 张韶涵.mp3",
+      "size": 7314993,
+      "sha256": "e45cfd280fed3d40675d70ac8ce95fc2a47584a2487e707812fae7a21ce6d645"
+    },
+    {
+      "path": "bundled-library/mandarin/016. 你不是真正的快乐 - 五月天.mp3",
+      "size": 8518792,
+      "sha256": "2fdf24831fa196659f0cd6788018ea76469ba87b1b03dc420df3e9acff518e20"
+    },
+    {
+      "path": "bundled-library/mandarin/017. 胆小鬼 - 梁咏琪.mp3",
+      "size": 7492596,
+      "sha256": "1ff241cf5bc48da42d8b1e09b4ff74edd353e9f58eee6967a8f4168b5fd88cf3"
+    },
+    {
+      "path": "bundled-library/mandarin/018. 痴心绝对 - 李圣杰.mp3",
+      "size": 7590591,
+      "sha256": "23c3ba97e97867ec1cf4d2193895336a76ae3b2bf0c49c7b85f56bcf7b0419ce"
+    },
+    {
+      "path": "bundled-library/mandarin/019. 好心分手 - 王力宏 · 卢巧音.mp3",
+      "size": 5158243,
+      "sha256": "5da4fa6e13d32f51b11584e15f55a51e6223be7435b481958946d0ad916e2f19"
+    },
+    {
+      "path": "bundled-library/mandarin/020. 流星雨 - F4.mp3",
+      "size": 7852487,
+      "sha256": "9e25b08a8e61ac2397f092ba1ab978b819e647d654e1952282822bdcf33a2e38"
+    },
+    {
+      "path": "bundled-library/mandarin/021. 发如雪 - 周杰伦.mp3",
+      "size": 8615549,
+      "sha256": "caea297deb1396afa4e2df24c4926d09588e51c6f459721e1d4cc8fee3cb87af"
+    },
+    {
+      "path": "bundled-library/mandarin/022. 就是我 - 林俊杰.mp3",
+      "size": 5534613,
+      "sha256": "72db1f91225000cd53c4d9d50a41c81953254f369f492c7f124d502a69a1840a"
+    },
+    {
+      "path": "bundled-library/mandarin/023. 吻别 - 张学友.mp3",
+      "size": 8371674,
+      "sha256": "75556a1ecd58d0d4af452f91bd384c3a0593a611654415ce76e48702cd9e7171"
+    },
+    {
+      "path": "bundled-library/mandarin/024. 小情歌 - 苏打绿.mp3",
+      "size": 7824591,
+      "sha256": "e7aa8140176f9af1ba6ba8e1b31000651e2581924aed2fe36b7338e5fc614b0b"
+    },
+    {
+      "path": "bundled-library/mandarin/025. 勇气 - 梁静茹.mp3",
+      "size": 6580326,
+      "sha256": "78ebf2d8f4071d63c223cf3f860cfcb46bf2f9873577d1b38b4ee30e00dce99b"
+    },
+    {
+      "path": "bundled-library/mandarin/026. 至少还有你 - 林忆莲.mp3",
+      "size": 7679790,
+      "sha256": "c0d59082e13a1583cf831d327885209effda25fc95d271d86da055b50cd0c5b6"
+    },
+    {
+      "path": "bundled-library/mandarin/027. 隐形的翅膀 - 张韶涵.mp3",
+      "size": 6310335,
+      "sha256": "a1916c2804d35ad5ddb41df2f3f21f3cbe09abba379afacbab84db882a7e149a"
+    },
+    {
+      "path": "bundled-library/mandarin/028. 波斯猫 - S.H.E.mp3",
+      "size": 6928569,
+      "sha256": "ad0358eb980852b3425dcf04853978cd131747a6b83dcd04261d5760db34c41f"
+    },
+    {
+      "path": "bundled-library/mandarin/029. 暗香 - 沙宝亮.mp3",
+      "size": 7735474,
+      "sha256": "28c037c83086d49b257412ba7c8d3e73c26a8f522ee9e9fd1dc265fa94a5886c"
+    },
+    {
+      "path": "bundled-library/mandarin/030. 独家记忆 - 陈小春.mp3",
+      "size": 8463005,
+      "sha256": "2fbe1f77b6046cc05fc530d02826bef715160113f710980982a8c37744c3ce5a"
+    },
+    {
+      "path": "bundled-library/mandarin/031. 花海 - 周杰伦.mp3",
+      "size": 7781487,
+      "sha256": "e1fc4a8a910dc2d9e5056ddd18bea0a4b775e1bd88b3394e32a4ac06af1728eb"
+    },
+    {
+      "path": "bundled-library/mandarin/032. 黄昏 - 周传雄.mp3",
+      "size": 9686609,
+      "sha256": "678ce752b1597ab6a82c7862c3fe35cffe82dcae17bd7563694a83d954635da5"
+    },
+    {
+      "path": "bundled-library/mandarin/033. 偏爱 - 张芸京.mp3",
+      "size": 6038464,
+      "sha256": "a1398781fbf6445a9380a71402dd804c50581e317fc9a4fad76da0a12fd1ed61"
+    },
+    {
+      "path": "bundled-library/mandarin/034. 情非得已 - 庾澄庆.mp3",
+      "size": 7916067,
+      "sha256": "a34b3e990602514e8913a295b8c8ea6ecc81082621a10fee5e87d7b38d1ce130"
+    },
+    {
+      "path": "bundled-library/mandarin/035. 突然的自我 - 伍佰.mp3",
+      "size": 6006701,
+      "sha256": "c234761664020369dbbefc646c98e0ad0a735401a83fc72d51714ff7ce50f30e"
+    },
+    {
+      "path": "bundled-library/mandarin/036. 为你写诗 - 吴克群.mp3",
+      "size": 8111227,
+      "sha256": "fc2ada35668b4f5815a73a15c00d9430db83f83ac552150c1678d949df9e758e"
+    },
+    {
+      "path": "bundled-library/mandarin/037. 我怀念的 - 孙燕姿.mp3",
+      "size": 7980086,
+      "sha256": "3f50cd282dfaa2a77661092b2acaf348667ffe43c77382caca1663ca1de3468d"
+    },
+    {
+      "path": "bundled-library/mandarin/038. 温柔 - 五月天.mp3",
+      "size": 7775677,
+      "sha256": "128ef59062af31e70cfd1df8d32b63322d033be73ac44b55cc43f79f5e6aeb67"
+    },
+    {
+      "path": "bundled-library/mandarin/039. 我们的爱 - F.I.R.飞儿乐团.mp3",
+      "size": 7975464,
+      "sha256": "fbe5b4a7b5e103ffb13b329e65b638a6b990a33b3a3bc7c2274dd6096f438952"
+    },
+    {
+      "path": "bundled-library/mandarin/040. 童话 - 光良.mp3",
+      "size": 6626988,
+      "sha256": "8fd1d1038d84276e78850cfff272ad4228e63f08800cbf9a9255f6d6c79196fe"
+    },
+    {
+      "path": "bundled-library/mandarin/041. 夜曲 - 周杰伦.mp3",
+      "size": 6676034,
+      "sha256": "539f25909ae4fa2193872d4b17c3b8a5a733517fe0db03217aa37999d048e7dc"
+    },
+    {
+      "path": "bundled-library/mandarin/042. 爱你 - 王心凌.mp3",
+      "size": 6557497,
+      "sha256": "abdb2831d1b3286a176141c49ce1a34bab8677f6e5822eb29fb0da660ad405d6"
+    },
+    {
+      "path": "bundled-library/mandarin/043. 背对背拥抱 - 林俊杰.mp3",
+      "size": 6574745,
+      "sha256": "56e4c2e451d5fe218d072c480bcad6ef6d16cec3692299b21515ab3b89abae6b"
+    },
+    {
+      "path": "bundled-library/mandarin/044. 睫毛弯弯 - 王心凌.mp3",
+      "size": 7183949,
+      "sha256": "8778572953eb0caaca5a7eeb48c3240ec2d04159b1ee5a139b16129be61bef41"
+    },
+    {
+      "path": "bundled-library/mandarin/045. 蒙娜丽莎的眼泪 - 林志炫.mp3",
+      "size": 7510336,
+      "sha256": "964253549aa3c2a8ad4937aa4c5dbe866c19c431e755c4959280ad06821257c6"
+    },
+    {
+      "path": "bundled-library/mandarin/046. 美丽的神话 - 孙楠 · 韩红.mp3",
+      "size": 8346052,
+      "sha256": "089e7216cf0964ce1faa3c9a057dae0ec69e39a90592ff999c52b007e2581a4d"
+    },
+    {
+      "path": "bundled-library/mandarin/047. 千年之恋 - F.I.R.飞儿乐团.mp3",
+      "size": 6382338,
+      "sha256": "150266ce784e7c2caf0896226a27d26526e291659ffce346aa91605a188784b8"
+    },
+    {
+      "path": "bundled-library/mandarin/048. 盛夏的果实 - 莫文蔚.mp3",
+      "size": 6955954,
+      "sha256": "3b481123b12b36ce09c0dabe1e40b77cfa4206f01e317deae81832996a2abb2e"
+    },
+    {
+      "path": "bundled-library/mandarin/049. 他一定很爱你 - 阿杜.mp3",
+      "size": 6020821,
+      "sha256": "850170e6a9f480a668f486de71e3ac7e0bb698faca61642539b596ed78ba01f5"
+    },
+    {
+      "path": "bundled-library/mandarin/050. 天黑黑 - 孙燕姿.mp3",
+      "size": 6379739,
+      "sha256": "bcfbe15e0d12a04f0fe3a468486ac50c4d5f77828fffd794ad68ee3063adf8a1"
+    },
+    {
+      "path": "bundled-library/mandarin/051. 借口 - 周杰伦.mp3",
+      "size": 7253592,
+      "sha256": "60f08fd9f87f46a3a08844432958ec775893f9d7e078b12e76a8035d020ebc26"
+    },
+    {
+      "path": "bundled-library/mandarin/052. 今天你要嫁给我 - 陶喆 · 蔡依林.mp3",
+      "size": 7686359,
+      "sha256": "ed2bdfd6c1162b414ba708b228de23ba61f39893bc6470c0debb179d201f27de"
+    },
+    {
+      "path": "bundled-library/mandarin/053. 快乐崇拜 - 潘玮柏 · 张韶涵.mp3",
+      "size": 6123146,
+      "sha256": "56b89aaf282173376d3d3f1163bfaff413457f7a77b25d64b533f87b3a03a778"
+    },
+    {
+      "path": "bundled-library/mandarin/054. 离开地球表面 - 五月天.mp3",
+      "size": 7745522,
+      "sha256": "a71ae6467f28d9ecc588f8fd2a90412c3e3096db854e27c95cd18403740ac379"
+    },
+    {
+      "path": "bundled-library/mandarin/055. 江南 - 林俊杰.mp3",
+      "size": 7670254,
+      "sha256": "1489e754b0f5f869bae988ab8d4b6eb6de94846e33f6650ca366bb98645af7dd"
+    },
+    {
+      "path": "bundled-library/mandarin/056. 会呼吸的痛 - 梁静茹.mp3",
+      "size": 7737750,
+      "sha256": "4a21821b650f383be310bec09f39a31fde64a87b02c2c02e0c8039bb57321ced"
+    },
+    {
+      "path": "bundled-library/mandarin/057. 灰色头像 - 许嵩.mp3",
+      "size": 8213812,
+      "sha256": "964df2a66a3746735f9deb0d5c11c5794cce6fa95c52f36dbe167a9233c4a136"
+    },
+    {
+      "path": "bundled-library/mandarin/058. 没那么简单 - 黄小琥.mp3",
+      "size": 8692763,
+      "sha256": "8e6e73cd937ad278d3aaf844b8b8e8529655a1157a848c17c5d003ddd3c06616"
+    },
+    {
+      "path": "bundled-library/mandarin/059. 日不落 - 蔡依林.mp3",
+      "size": 6698545,
+      "sha256": "1ba4117c638fb715705d2b4eb7596a06d2744b11761b61c87884beb2a104cf3a"
+    },
+    {
+      "path": "bundled-library/mandarin/060. 十年 - 陈奕迅.mp3",
+      "size": 5670215,
+      "sha256": "5afb70f86a06c55ee38b18af24b0e853e34496272afb4ce99a98e31085e435de"
+    },
+    {
+      "path": "bundled-library/mandarin/061. 晴天 - 周杰伦.mp3",
+      "size": 7665410,
+      "sha256": "784be1a6580c0a04d1ee964f184b4a91d3b44c4fa69b37ab976e1b6696c2ed57"
+    },
+    {
+      "path": "bundled-library/mandarin/062. 三国恋 - Tank.mp3",
+      "size": 7052793,
+      "sha256": "8f02f97a36b015fc91d6f92060ca5444d92d17df5772923bda19ee00cb6c5fdd"
+    },
+    {
+      "path": "bundled-library/mandarin/063. 说谎 - 林宥嘉.mp3",
+      "size": 7496658,
+      "sha256": "4a73c339b061ad5e287771b8e4c3f4ccfa2be557c8e31f55bdaf8b6ebfe22224"
+    },
+    {
+      "path": "bundled-library/mandarin/064. 死了都要爱 - 信乐团.mp3",
+      "size": 7446437,
+      "sha256": "08c4a4d3d321ed523eeeba1d5869c54a6f113ff630a4ab727bf2845c297f256e"
+    },
+    {
+      "path": "bundled-library/mandarin/065. 五月天 - S.H.E.mp3",
+      "size": 6439843,
+      "sha256": "48661e50deaec894c6ecbaafcef97755d6c21934a4dec55af6fcb35e3b59d412"
+    },
+    {
+      "path": "bundled-library/mandarin/066. 下一站天后 - Twins.mp3",
+      "size": 5913636,
+      "sha256": "619671a57b6dfb40ac3fc76302215728f34bddf39c5fb1cd51d17a4111ecdf77"
+    },
+    {
+      "path": "bundled-library/mandarin/067. 因为爱所以爱 - 谢霆锋.mp3",
+      "size": 7311613,
+      "sha256": "bbe08ba29e878f4b1ace481cc7b6b686a9d88596948b2a2fabc13b9393271dca"
+    },
+    {
+      "path": "bundled-library/mandarin/068. 一生有你 - 水木年华.mp3",
+      "size": 6938262,
+      "sha256": "25a355845c0e137528c8ce44d797e510cfc061c887316206a55766e6169b09df"
+    },
+    {
+      "path": "bundled-library/mandarin/069. 月亮惹的祸 - 张宇.mp3",
+      "size": 7338340,
+      "sha256": "9e1fb2cd929319f830c730e0e0641503373124297a37cad7dd58ea67dd608cb2"
+    },
+    {
+      "path": "bundled-library/mandarin/070. 遇见 - 孙燕姿.mp3",
+      "size": 5666920,
+      "sha256": "853d6886c53426b46f7839d7f28dec898069a7262d2bf7ae60751955236c9328"
+    },
+    {
+      "path": "bundled-library/mandarin/071. 七里香 - 周杰伦.mp3",
+      "size": 8419724,
+      "sha256": "af35d5c11c0b1ccbfa2b1f6d4956092a1855caca612e3218d59b3a66977eccd0"
+    },
+    {
+      "path": "bundled-library/mandarin/072. 派对动物 - 五月天.mp3",
+      "size": 7267434,
+      "sha256": "c3000ec821a5e2345e82c6efb3e61d49f2234a9239fc52e764f6d6cb6db0cb00"
+    },
+    {
+      "path": "bundled-library/mandarin/073. 亲爱的，那不是爱情 - 张韶涵.mp3",
+      "size": 7227260,
+      "sha256": "97f02fb8894eeed95976fef427fa79d01fdd6e86863b646bd0be2e298be444f6"
+    },
+    {
+      "path": "bundled-library/mandarin/074. 突然好想你 - 五月天.mp3",
+      "size": 7426433,
+      "sha256": "92be4d218181503bdde40f08cc4145e94b4afde79a5aad398bdb76b6117e75c2"
+    },
+    {
+      "path": "bundled-library/mandarin/075. 说爱你 - 蔡依林.mp3",
+      "size": 6625568,
+      "sha256": "dccddc7072e843769d46fb1c18db5e215f3d933f95178839f945f190247e744c"
+    },
+    {
+      "path": "bundled-library/mandarin/076. 夏天的风 - 温岚.mp3",
+      "size": 6911845,
+      "sha256": "1f8af8f837a5ac5f6349ac2e667f3a38cf5511a6986bd4d0be7cb22600527a91"
+    },
+    {
+      "path": "bundled-library/mandarin/077. 王妃 - 萧敬腾.mp3",
+      "size": 6436578,
+      "sha256": "393e40bb1e7be0ab87be67082699f7033134d1fe79043bec7cdbf6f96d15c64d"
+    },
+    {
+      "path": "bundled-library/mandarin/078. 雨蝶 - 李翊君.mp3",
+      "size": 6418713,
+      "sha256": "d1c2369e237363ac9f69748a21003c482d4a1765e5b6b39ca0f7bd6a69952d08"
+    },
+    {
+      "path": "bundled-library/mandarin/079. 雨爱 - 杨丞琳.mp3",
+      "size": 7472272,
+      "sha256": "9c073d578eafc58626951494028634ed12f613a9a1c42d178ab20e89fd0c95c4"
+    },
+    {
+      "path": "bundled-library/mandarin/080. 一千年以后 - 林俊杰.mp3",
+      "size": 6385251,
+      "sha256": "6d89f92ec2c49b2e9256f8b0f3c516375feba51b2d593ff812bc136822b3ebb2"
+    },
+    {
+      "path": "bundled-library/mandarin/081. 菊花台 - 周杰伦.mp3",
+      "size": 7807449,
+      "sha256": "d5f571500bc3872cc2ae695816eb51a7caf62ca7c0ede919a8d4b6b6e0e37c21"
+    },
+    {
+      "path": "bundled-library/mandarin/082. 绿光 - 孙燕姿.mp3",
+      "size": 5538500,
+      "sha256": "15cf571c9d79cd7fd268bc1ca3f7d0e48f26dbc2ee0a641e6b7f95f5e3251ee4"
+    },
+    {
+      "path": "bundled-library/mandarin/083. 千里之外 - 周杰伦 · 费玉清.mp3",
+      "size": 7397305,
+      "sha256": "da706626875fbf035ebf2e71a87d40a94bb28f72c8f3a0b652d3fd9023177085"
+    },
+    {
+      "path": "bundled-library/mandarin/084. 心墙 - 郭静.mp3",
+      "size": 6494710,
+      "sha256": "e85089bf96b3ab29f0695a0738d6df4d28bf7c41eac469ff6a64ed3775759838"
+    },
+    {
+      "path": "bundled-library/mandarin/085. 相见恨晚 - 彭佳慧.mp3",
+      "size": 7257946,
+      "sha256": "9b18f6c7dcb1d3f90e49b4b6bacfe61c7332cadf7eb3cc4553b9e76460c90e4a"
+    },
+    {
+      "path": "bundled-library/mandarin/086. 外滩十八号 - 袁成杰 · 戚薇.mp3",
+      "size": 6489691,
+      "sha256": "1ec15224e4dad21fcf1cec8ef0396cf1ad94823015e695d2e1548fb9db12947c"
+    },
+    {
+      "path": "bundled-library/mandarin/087. 就是爱你 - 陶喆.mp3",
+      "size": 7458592,
+      "sha256": "96d9feb10b4342a0b8891c664e233e6a7da4495dd27c6b0e6da44002169fe1ce"
+    },
+    {
+      "path": "bundled-library/mandarin/088. 曹操 - 林俊杰.mp3",
+      "size": 6876610,
+      "sha256": "921ce3b3bb8530525ae2e6401490d2637f28900d5f9a68bb27c821fab6c32772"
+    },
+    {
+      "path": "bundled-library/mandarin/089. 你的微笑 - F.I.R.飞儿乐团.mp3",
+      "size": 7592315,
+      "sha256": "bdb01629f75accabd5a64bb6064a83df2faeccbfd556be2a277ef1a972736ecd"
+    },
+    {
+      "path": "bundled-library/mandarin/090. 小酒窝 - 林俊杰 · 蔡卓妍.mp3",
+      "size": 6439184,
+      "sha256": "c5077e0f7f3f286a0e6b3db5484a635440361d92ce86dad734854c124785a740"
+    },
+    {
+      "path": "bundled-library/mandarin/091. 青花瓷 - 周杰伦.mp3",
+      "size": 6753780,
+      "sha256": "a65dc22061be5c313541400672c21ea6d851574056e98c264ad0eb84729cd0d6"
+    },
+    {
+      "path": "bundled-library/mandarin/092. 一直很安静 - 阿桑.mp3",
+      "size": 6889719,
+      "sha256": "2d684b92a4a3c2dcb2f2b2c38ceb7024a576f93c312bf282631019144a0b2f47"
+    },
+    {
+      "path": "bundled-library/mandarin/093. 夜的第七章 - 周杰伦 · 潘儿.mp3",
+      "size": 6810901,
+      "sha256": "c699ccfee76b10ef780e5350f24ca5e3d6e8628f8a2978609ee61de5cbf61da0"
+    },
+    {
+      "path": "bundled-library/mandarin/094. 知足 - 五月天.mp3",
+      "size": 7156856,
+      "sha256": "10001301f47a99170578644328cf9f48f69f85913298e1792aa2ad64ba66982a"
+    },
+    {
+      "path": "bundled-library/mandarin/095. 布拉格广场 - 蔡依林 · 周杰伦.mp3",
+      "size": 8430796,
+      "sha256": "c306c312b1b296a1f9f470ff02dfc2d5d057650ae72d46058200bb630f206353"
+    },
+    {
+      "path": "bundled-library/mandarin/096. 星月神话 - 金莎.mp3",
+      "size": 7038234,
+      "sha256": "54d1524f5fd1114213d5a414dba96bcfd4e90df73f73c86a92da81d6dd7a3ba0"
+    },
+    {
+      "path": "bundled-library/mandarin/097. 怎样 - 戴佩妮.mp3",
+      "size": 7636553,
+      "sha256": "89500159997a7e4be909731a83f02b37c5692b145be239a2a8b90a244885ad95"
+    },
+    {
+      "path": "bundled-library/mandarin/098. 只对你有感觉 - 飞轮海 · 田馥甄.mp3",
+      "size": 7006246,
+      "sha256": "7a01c1aad8799feabf65d7b7b5eb9e9cf0e38dd7942ab9094610005d3a03fd70"
+    },
+    {
+      "path": "bundled-library/mandarin/099. 浮夸 - 陈奕迅.mp3",
+      "size": 7831829,
+      "sha256": "9324f62bf60fbad1974d9e07b925ce9ae77eedc16553089be6885aea57fdb414"
+    },
+    {
+      "path": "bundled-library/mandarin/100. 龙卷风 - 周杰伦.mp3",
+      "size": 7124703,
+      "sha256": "a262962ad70c54061b340e812563fb0c1842a5110c1a7202f8883d46c88d4f31"
+    },
+    {
+      "path": "bundled-library/manifest.json",
+      "size": 171057,
+      "sha256": "8a1b720aebaa5b4bf37f77e375eeb55d3abfc8daeeedd1ab163f65c9f13c9893"
+    },
+    {
+      "path": "bundled-library/mao/001. 不染 - 毛不易.mp3",
+      "size": 10582573,
+      "sha256": "e8b51db63a25f6143faed0667da4582f8277a3d48f7d4f0dcb1e3c6c206353b5"
+    },
+    {
+      "path": "bundled-library/mao/002. 东北民谣 - 毛不易.mp3",
+      "size": 8890957,
+      "sha256": "48724ea97be9c44b2c224faab64f786594f361c22faff351f2364adb8cc019d4"
+    },
+    {
+      "path": "bundled-library/mao/003. 借 - 毛不易.mp3",
+      "size": 7794253,
+      "sha256": "40f4ab5880f4e1c647833688659c4bc258482f6d8cffc5d3e6229be11c618fba"
+    },
+    {
+      "path": "bundled-library/mao/004. 看得最远的地方 - 毛不易.mp3",
+      "size": 8176957,
+      "sha256": "d9ef7b7a3a1feb251f2947e2435cea7953d687414cf4d6d00a3eb10edee591b3"
+    },
+    {
+      "path": "bundled-library/mao/005. 牧马城市 - 毛不易.mp3",
+      "size": 8290671,
+      "sha256": "1b77f60a661d6ac515d5df64db13ab50598eecf5509d9e14500223c94fab3f08"
+    },
+    {
+      "path": "bundled-library/mao/006. 入海 - 毛不易.mp3",
+      "size": 11622517,
+      "sha256": "0dec16fea8f4d6993a73317ad229af844fc119872f0aecba0d1cb581f8aa6e8b"
+    },
+    {
+      "path": "bundled-library/mao/007. 水乡 - 毛不易.mp3",
+      "size": 8843055,
+      "sha256": "87657c35caaa6db127cb6a24838bbc9976d87fdba86d651af170ad5cfd37b447"
+    },
+    {
+      "path": "bundled-library/mao/008. 无名的人 - 毛不易.mp3",
+      "size": 8802829,
+      "sha256": "f96c251207cca73f7a60b17d7aecc4561dc724fd0e2804eea7f0e0168e09a1d8"
+    },
+    {
+      "path": "bundled-library/mao/009. 无问 - 毛不易.mp3",
+      "size": 8228365,
+      "sha256": "7ad68e65be2d66889a7be6539e1514faa87a2ea0fdbb6e9e5d564e4559ece816"
+    },
+    {
+      "path": "bundled-library/mao/010. 消愁 - 毛不易.mp3",
+      "size": 8429101,
+      "sha256": "e20a9d894a67e7bbe38868c8cd13e9f7e2a1d159513ebf3713baa67931745a6c"
+    },
+    {
+      "path": "bundled-library/mao/011. 一程山路 - 毛不易.mp3",
+      "size": 7101325,
+      "sha256": "4c9b84baa8cdd4ec65954f8e8ebb93bc8c56b2929d31c00cf385bb9e5869096b"
+    },
+    {
+      "path": "bundled-library/mao/012. 一荤一素 - 毛不易.mp3",
+      "size": 8460877,
+      "sha256": "a92a13826325b02ae920c4b025cdaf75fd7cb747e09c102bd8a31e72e90fc418"
+    },
+    {
+      "path": "bundled-library/mao/013. 呓语 - 毛不易.mp3",
+      "size": 8944165,
+      "sha256": "f51148a61836d795ba546ca67af0d9ac6823107ed9023445e4068895740a78aa"
+    },
+    {
+      "path": "bundled-library/mao/014. 幼鸟指南 - 毛不易.mp3",
+      "size": 9110029,
+      "sha256": "efef27d3199eb1202eab5219d211b633d01022fa9161ce133de92b5e83316ab1"
+    },
+    {
+      "path": "bundled-library/mao/015. 只在今夜 - 毛不易.mp3",
+      "size": 7441743,
+      "sha256": "78cbbd44164264a8f338cfbc5d85b18698eae7dabcb3f6351ed8498a447d27e9"
+    },
+    {
+      "path": "bundled-library/medley/001. 中文 R&B · 音乐合集 - 群星.mp3",
+      "size": 64269699,
+      "sha256": "193946b3d6308e78adf26b498f86dafb82b0b8584c7eeb938e3f6c2a2ea411a4"
+    },
+    {
+      "path": "bundled-library/medley/002. 宝石 GEM · 现场合集 - 宝石 GEM.mp3",
+      "size": 35832102,
+      "sha256": "6d03c1f30d76574925e0a6bd28782bfe534f79e3303c708268829b0f3f68ae4a"
+    },
+    {
+      "path": "bundled-library/medley/003. 无畏契约 · 音乐合集 - 群星.mp3",
+      "size": 51278227,
+      "sha256": "e1012ee7f8b86c5877f680ae73fb76370ffc9e51feaab464c1df7eb9db8dce5b"
+    },
+    {
+      "path": "bundled-library/tao/001. 爱我还是他 - 陶喆.mp3",
+      "size": 8611760,
+      "sha256": "1d3bfae2a1c358392aa7568787e91d1867e73f0bcc0b338652a0b366ba8fb014"
+    },
+    {
+      "path": "bundled-library/tao/002. 寂寞的季节 - 陶喆.mp3",
+      "size": 5610889,
+      "sha256": "2fd77b479eab168caf71544596f0c03aac4c3274499a041b42f4792e8f0e3a62"
+    },
+    {
+      "path": "bundled-library/tao/003. 黑色柳丁 - 陶喆.mp3",
+      "size": 7960424,
+      "sha256": "d22bed029ee443b42ac4fed031b44b62ffcec0b805f96e32841e9366aaf808be"
+    },
+    {
+      "path": "bundled-library/tao/004. 飞机场的10：30 - 陶喆.mp3",
+      "size": 8718634,
+      "sha256": "e40496c5b6d2dbb8483eb7537a6b7905c32ae67bcc4a21a5599d582ad8d07e7c"
+    },
+    {
+      "path": "bundled-library/tao/005. 流沙 - 陶喆.mp3",
+      "size": 7491078,
+      "sha256": "579ee2053b5cd57fbe82653c7b53ae1adc04535b7d8392579890ada9195cdbc9"
+    },
+    {
+      "path": "bundled-library/tao/006. 普通朋友 - 陶喆.mp3",
+      "size": 7601763,
+      "sha256": "7430e8d93cfd29088d664fad1644c61304dd0239f35e34dd1b5b66bab48ef349"
+    },
+    {
+      "path": "bundled-library/tao/007. 十七岁 - 陶喆.mp3",
+      "size": 7992707,
+      "sha256": "8ae8441362c889e33f6e567c990841f9289710a8cc6e8aa6e1ed66d05cae13a2"
+    },
+    {
+      "path": "bundled-library/tao/008. 太美丽 - 陶喆.mp3",
+      "size": 8878262,
+      "sha256": "4aa374cf23fd37f23187402d3da63e370c4b2e313b48029efe19cac7398856e8"
+    },
+    {
+      "path": "bundled-library/tao/009. 讨厌红楼梦 - 陶喆.mp3",
+      "size": 7836003,
+      "sha256": "7bb2ecbaaf9edefcd62a828016c0df824ce8c409a2085f811e2bf6084f1f94df"
+    },
+    {
+      "path": "bundled-library/tao/010. 天天 - 陶喆.mp3",
+      "size": 7886353,
+      "sha256": "d92abc4b7ce985749d314e6f6d784bbebd4cb33785f7e392b0a5c549ca816667"
+    },
+    {
+      "path": "bundled-library/tao/011. 小镇姑娘 - 陶喆.mp3",
+      "size": 9017471,
+      "sha256": "1329029a08380578435707054ba296809febd89f8ec5e68649093d860cd0dc96"
+    },
+    {
+      "path": "bundled-library/tao/012. Melody - 陶喆.mp3",
+      "size": 7980849,
+      "sha256": "f4572762b991a11ac96d95007c8688bd238ce68ed079f360ff6b0945a248dec9"
+    },
+    {
+      "path": "bundled-library/tao/013. Susan说 - 陶喆.mp3",
+      "size": 8214297,
+      "sha256": "23e9b1e1f096ce1f3728584a35ca4ce644a2262c2ece7a287703acbcbcb8b512"
+    },
+    {
+      "path": "bundled-library/tao/014. 爱，很简单 - 陶喆.mp3",
+      "size": 8291101,
+      "sha256": "ddb12f7022bdf60f4c0e733be5424fd91eb7b6abb9817ece339c3b4d2ad54d84"
+    },
+    {
+      "path": "bundled-library/tao/015. 二十二 - 陶喆.mp3",
+      "size": 8146669,
+      "sha256": "2920e929ae57a197f220ca53883065a3f7f79771d1b0ab1fd052b3af971ac0a1"
+    },
+    {
+      "path": "bundled-library/tao/016. 蝴蝶 - 陶喆.mp3",
+      "size": 8659487,
+      "sha256": "2475624215ce8d9e270715dc1906808ceaba2889330c2653ec28612fbbebea98"
+    },
+    {
+      "path": "bundled-library/tao/017. 今天你要嫁给我 - 陶喆.mp3",
+      "size": 8055667,
+      "sha256": "13325a84ac74cbe9337cce356bddb84bf38867782ba38ce1284c997765c9e7ac"
+    },
+    {
+      "path": "bundled-library/tao/018. 就是爱你 - 陶喆.mp3",
+      "size": 8020246,
+      "sha256": "0a4b575c09ed478a989436e420b2e02de8d30df348433ba84389f3e13d0b4b7f"
+    },
+    {
+      "path": "bundled-library/tao/019. 那个女孩 - 陶喆.mp3",
+      "size": 8443557,
+      "sha256": "7e3d5cf0257af92fc6ad8d1a424c0264965a7d1c0ae8781367031d109dda7c2b"
+    },
+    {
+      "path": "bundled-library/tao/020. 望春风 - 陶喆.mp3",
+      "size": 5389608,
+      "sha256": "efcc134b84dd81e6a4d8b67bf4855748600d125253c90e947b2170934c748cc9"
+    },
+    {
+      "path": "bundled-library/tao/021. 一念之间 - 陶喆.mp3",
+      "size": 8420141,
+      "sha256": "5de85d40a836d36e7972e5a2a77d296ebd748c223a185758a039c26b2444dab5"
+    },
+    {
+      "path": "bundled-library/tao/022. 月亮代表谁的心 - 陶喆.mp3",
+      "size": 6404848,
+      "sha256": "9701bd1e35848f93129a03b5c4e6e2066178d1d1dacaa72db6ef6802f28ca769"
+    },
+    {
+      "path": "bundled-library/tao/023. 找自己 - 陶喆.mp3",
+      "size": 9828253,
+      "sha256": "39b4825bdcbd17fb4b50f5a8f786836a669b9baa5ee2ddfae371e13732085d9f"
+    }
+  ]
+}

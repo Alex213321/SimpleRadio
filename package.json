@@ -1,0 +1,64 @@
+{
+  "name": "simple-radio-local-player",
+  "version": "1.4.2",
+  "description": "SimpleRadio - Windows 本地沉浸式音乐播放器",
+  "main": "electron/main.cjs",
+  "author": "SimpleRadio",
+  "license": "MIT",
+  "private": true,
+  "repository": { "type": "git", "url": "https://github.com/Alex213321/SimpleRadio.git" },
+  "homepage": "https://github.com/Alex213321/SimpleRadio#readme",
+  "bugs": { "url": "https://github.com/Alex213321/SimpleRadio/issues" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "test": "node --test tests/*.test.cjs",
+    "test:unit": "node --test tests/library-utils.test.cjs tests/store.test.cjs tests/media-response.test.cjs tests/structure.test.cjs tests/resource-tools.test.cjs",
+    "verify": "npm run test",
+    "catalog:prepare": "node scripts/prepare-catalog.cjs",
+    "wallpaper:prepare": "node scripts/prepare-wallpapers.cjs",
+    "wallpaper:posters": "electron scripts/capture-wallpaper-posters.cjs",
+    "assets:prepare": "npm run catalog:prepare && npm run wallpaper:prepare && npm run wallpaper:posters",
+    "resources:import": "electron scripts/import-release-resources.cjs",
+    "resources:verify": "node scripts/verify-resources.cjs",
+    "resources:manifest": "electron scripts/make-resource-manifest.cjs --project",
+    "pack": "npm run resources:verify && electron-builder --dir",
+    "dist:win": "npm run resources:verify && electron-builder --win zip --x64"
+  },
+  "dependencies": {
+    "music-metadata": "^11.9.0"
+  },
+  "devDependencies": {
+    "electron": "37.10.3",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "com.simpleradio.player",
+    "productName": "SimpleRadio",
+    "asar": true,
+    "electronDist": "node_modules/electron/dist",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "src/**/*",
+      "assets/**/*",
+      "!assets/icon-source-v*.png",
+      "docs/PRD.md",
+      "docs/TECHNICAL_DESIGN.md",
+      "package.json",
+      "README.md",
+      "LICENSE"
+    ],
+    "extraResources": [
+      { "from": "bundled-library", "to": "music-library", "filter": ["**/*"] }
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": ["zip"],
+      "artifactName": "SimpleRadio-Portable-${version}-${arch}.${ext}"
+    }
+  }
+}

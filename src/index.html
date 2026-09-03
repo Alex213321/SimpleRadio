@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: simple-radio: simple-wallpaper:; media-src 'self' blob: simple-radio: simple-wallpaper:; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleRadio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4V10Z"/></symbol>
+      <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2Zm7 15 .7 2.3L22 20l-2.3.7L19 23l-.7-2.3L16 20l2.3-.7L19 17Z"/></symbol>
+      <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18h1.4a2.1 2.1 0 0 0 1.8-3.2 2.1 2.1 0 0 1 1.8-3.2h1.8A2.2 2.2 0 0 0 21 12.4 9.1 9.1 0 0 0 12 3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7.5" r="1"/><circle cx="14.5" cy="7.5" r="1"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path class="fill" d="m8 5 11 7-11 7V5Z"/></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><path class="fill" d="M7 5h4v14H7zm6 0h4v14h-4z"/></symbol>
+      <symbol id="i-next" viewBox="0 0 24 24"><path class="fill" d="m6 5 10 7-10 7V5Zm11 0h2v14h-2z"/></symbol>
+      <symbol id="i-prev" viewBox="0 0 24 24"><path class="fill" d="M5 5h2v14H5zm3 7 10-7v14L8 12Z"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.9-8.6a5.5 5.5 0 0 0-.1-7.8Z"/></symbol>
+      <symbol id="i-volume" viewBox="0 0 24 24"><path d="M5 9H2v6h3l5 4V5L5 9Zm9 0c1.3 1.7 1.3 4.3 0 6m3-9c3.3 3.3 3.3 8.7 0 12"/></symbol>
+      <symbol id="i-volume-off" viewBox="0 0 24 24"><path d="M5 9H2v6h3l5 4V5L5 9Zm11 0 6 6m0-6-6 6"/></symbol>
+      <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3 7h3c5 0 7 10 12 10h3M18 4l3 3-3 3M3 17h3c2.5 0 4.2-2.5 6-5m6 2 3 3-3 3"/></symbol>
+      <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4 8.5a3 3 0 0 1 3-3h12m-3-3 3 3-3 3M20 15.5a3 3 0 0 1-3 3H5m3 3-3-3 3-3"/></symbol>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3V6Z"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-minimize" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+      <symbol id="i-maximize" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="1"/></symbol>
+      <symbol id="i-stage" viewBox="0 0 24 24"><path d="M5 5h14M5 10h10M5 15h8M5 20h5"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+      <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></symbol>
+    </svg>
+
+    <div id="app" class="app-shell loading splash-visible">
+      <div id="wallpaperStatic" class="wallpaper-static"></div>
+      <video id="wallpaperA" class="wallpaper-video active" muted loop playsinline></video>
+      <video id="wallpaperB" class="wallpaper-video" muted loop playsinline></video>
+      <div class="wallpaper-shade"></div>
+      <div class="ambient-grain"></div>
+
+      <header class="titlebar">
+        <div class="titlebar-brand" aria-label="SimpleRadio">
+          <span class="wave-mark"><i></i><i></i><i></i><i></i></span>
+          <strong>SimpleRadio</strong>
+        </div>
+        <div class="titlebar-drag"></div>
+        <div class="window-controls">
+          <button type="button" data-window="minimize" aria-label="最小化"><svg><use href="#i-minimize"></use></svg></button>
+          <button type="button" data-window="maximize" aria-label="最大化"><svg><use href="#i-maximize"></use></svg></button>
+          <button class="window-close" type="button" data-window="close" aria-label="最小化到托盘" title="最小化到托盘"><svg><use href="#i-close"></use></svg></button>
+        </div>
+      </header>
+
+      <section id="splash" class="splash-screen" aria-label="SimpleRadio 启动页">
+        <div class="prism-ribbons" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <button class="splash-enter" type="button" data-enter-app>
+          <span class="splash-wordmark"><b>Simple</b><em>Radio</em></span>
+          <span class="enter-label">点击进入 <i>→</i></span>
+        </button>
+        <p class="splash-foot">LOCAL MUSIC · YOUR PRIVATE FREQUENCY</p>
+      </section>
+
+      <nav class="floating-rail" aria-label="页面与外观">
+        <button class="rail-button active" type="button" data-view="home" aria-label="主页" title="主页"><svg><use href="#i-home"></use></svg><span>主页</span></button>
+        <button class="rail-button" type="button" data-view="stage" aria-label="沉浸播放" title="沉浸播放"><svg><use href="#i-spark"></use></svg><span>沉浸</span></button>
+        <button class="rail-button" type="button" data-view="favorites" aria-label="我的收藏" title="我的收藏"><svg><use href="#i-heart"></use></svg><span>收藏</span></button>
+        <button class="rail-button" type="button" data-view="recent" aria-label="最近播放" title="最近播放"><svg><use href="#i-clock"></use></svg><span>最近</span></button>
+        <i class="rail-divider"></i>
+        <button class="rail-button" type="button" data-open-controls aria-label="皮肤设置" title="皮肤设置"><svg><use href="#i-palette"></use></svg><span>外观</span></button>
+      </nav>
+
+      <main class="main-surface">
+        <section id="homeView" class="view home-view active" aria-label="主页">
+          <header class="home-header">
+            <div>
+              <span class="eyebrow">MY PRIVATE FREQUENCY</span>
+              <h1>晚上好，听点什么？</h1>
+            </div>
+            <div class="home-actions">
+              <div class="search-wrap">
+                <label class="search-pill"><svg><use href="#i-search"></use></svg><input id="searchInput" type="search" placeholder="筛选本地歌曲" autocomplete="off" aria-controls="searchResults" aria-expanded="false" /></label>
+                <div id="searchResults" class="search-results" hidden></div>
+              </div>
+            </div>
+          </header>
+
+          <div class="dashboard-grid">
+            <article id="nowCard" class="glass-card now-card" role="button" tabindex="0" data-open-current-stage aria-label="进入当前歌曲沉浸界面"></article>
+            <article id="statCard" class="glass-card stat-card"></article>
+            <button id="favoriteSummary" class="glass-card metric-card" type="button" data-view="favorites"></button>
+            <button id="recentSummary" class="glass-card metric-card" type="button" data-view="recent"></button>
+          </div>
+
+          <section id="playlistSection" class="home-section">
+            <header><div><span class="eyebrow">CURATED COLLECTIONS</span><h2>我的歌单</h2></div></header>
+            <div id="playlistGrid" class="playlist-grid"></div>
+          </section>
+
+          <div class="home-columns">
+            <section class="home-section list-section">
+              <header><div><span class="eyebrow">MOST PLAYED</span><h2>循环最多的十首</h2></div><span class="section-note">按有效播放次数</span></header>
+              <div id="topTracks" class="track-list compact"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="stageView" class="view stage-view" aria-label="沉浸播放">
+          <div class="stage-heading">
+            <span class="eyebrow">NOW ON SIMPLE RADIO</span>
+            <h2 id="stageTitle">选择一首歌</h2>
+            <p id="stageArtist">让旋律开始流动</p>
+          </div>
+        </section>
+
+        <section id="favoritesView" class="view collection-view" aria-label="我的收藏">
+          <div class="collection-page-shell">
+            <header class="collection-hero favorites-hero">
+              <div><span class="eyebrow">YOUR FAVORITE FREQUENCY</span><h1>我的收藏</h1><p>把真正想反复听的旋律，留在这一页。</p></div>
+              <span class="collection-hero-icon"><svg><use href="#i-heart"></use></svg></span>
+            </header>
+            <section class="collection-library glass-card">
+              <header><div><span class="eyebrow">FAVORITE TRACKS</span><h2>珍藏的歌曲</h2></div><div class="collection-actions"><span id="favoritesPageCount" class="collection-count">0 首</span><button id="favoritesPlayAll" class="primary-button compact-button" type="button" data-play-favorites><svg><use href="#i-play"></use></svg>播放全部</button></div></header>
+              <div id="favoritesPageList" class="track-list collection-page-list"></div>
+            </section>
+          </div>
+        </section>
+
+        <section id="recentView" class="view collection-view" aria-label="最近播放">
+          <div class="collection-page-shell">
+            <header class="collection-hero recent-hero">
+              <div><span class="eyebrow">LISTENING TIMELINE</span><h1>最近播放</h1><p>沿着时间，回到刚刚听过的旋律。</p></div>
+              <span class="collection-hero-icon"><svg><use href="#i-clock"></use></svg></span>
+            </header>
+            <section class="collection-library glass-card">
+              <header><div><span class="eyebrow">PLAYBACK HISTORY</span><h2>聆听足迹</h2></div><span id="recentPageCount" class="collection-count">0 首</span></header>
+              <div id="recentPageList" class="track-list collection-page-list"></div>
+            </section>
+          </div>
+        </section>
+      </main>
+
+      <footer id="playerBar" class="playerbar">
+        <button id="playerTrack" class="player-track" type="button" data-view="stage">
+          <span id="playerCover" class="player-cover cover-art empty"><span>SR</span></span>
+          <span><strong id="playerTitle">选择一首歌</strong><small id="playerArtist">从你的本地歌单开始</small></span>
+        </button>
+        <button id="favoriteButton" class="icon-button" type="button" data-favorite-current aria-label="收藏"><svg><use href="#i-heart"></use></svg></button>
+        <div class="player-center">
+          <div class="transport">
+            <button class="icon-button" type="button" data-player="previous" aria-label="上一首"><svg><use href="#i-prev"></use></svg></button>
+            <button id="playButton" class="play-button" type="button" data-player="toggle" aria-label="播放"><svg><use href="#i-play"></use></svg></button>
+            <button class="icon-button" type="button" data-player="next" aria-label="下一首"><svg><use href="#i-next"></use></svg></button>
+            <button id="repeatButton" class="icon-button playback-mode" type="button" data-player="repeat" aria-label="顺序播放，点击切换为单曲循环" title="顺序播放"><svg><use href="#i-repeat"></use></svg><b aria-hidden="true">1</b></button>
+          </div>
+          <div class="progress-row"><span id="currentTime">0:00</span><input id="progress" type="range" min="0" max="1000" value="0" aria-label="播放进度" /><span id="duration">0:00</span></div>
+        </div>
+        <div class="player-tools">
+          <button id="stageToggleButton" class="stage-button" type="button" data-toggle-stage aria-label="进入沉浸页面"><svg><use href="#i-stage"></use></svg><span>沉浸</span></button>
+          <button id="muteButton" class="icon-button" type="button" data-player="mute" aria-label="静音"><svg><use href="#i-volume"></use></svg></button>
+          <input id="volume" class="volume" type="range" min="0" max="1" step="0.01" value="0.78" aria-label="音量" />
+        </div>
+      </footer>
+
+      <aside id="controlPanel" class="control-panel" aria-hidden="true">
+        <header><div><span class="eyebrow">SIMPLE APPEARANCE</span><h2>外观控制台</h2></div><button class="icon-button" type="button" data-close-controls aria-label="关闭"><svg><use href="#i-close"></use></svg></button></header>
+        <h3 id="skinHeading" class="panel-section-heading">皮肤</h3>
+        <div id="skinPanel" class="skin-panel" data-appearance-section="skin" role="region" aria-labelledby="skinHeading">
+          <div id="wallpaperOptions" class="wallpaper-options"></div>
+          <div class="control-group">
+            <label><span>壁纸可见度<output data-output="wallpaperOpacity"></output></span><input data-setting="wallpaperOpacity" type="range" min="0.2" max="1" step="0.01" /></label>
+            <label><span>背景暗度<output data-output="wallpaperDim"></output></span><input data-setting="wallpaperDim" type="range" min="0" max="0.85" step="0.01" /></label>
+            <label><span>背景模糊<output data-output="wallpaperBlur"></output></span><input data-setting="wallpaperBlur" type="range" min="0" max="18" step="1" /></label>
+          </div>
+        </div>
+      </aside>
+      <button id="panelBackdrop" class="panel-backdrop" type="button" data-close-controls aria-label="关闭控制面板"></button>
+
+      <dialog id="collectionDialog" class="collection-dialog">
+        <div class="dialog-shell">
+          <header><div><span id="dialogEyebrow" class="eyebrow">LOCAL COLLECTION</span><h2 id="dialogTitle">歌单</h2><p id="dialogDescription"></p></div><button class="icon-button" type="button" data-close-dialog aria-label="关闭"><svg><use href="#i-close"></use></svg></button></header>
+          <div class="dialog-toolbar"><button id="dialogPlayAll" class="primary-button" type="button"><svg><use href="#i-play"></use></svg>播放全部</button><span id="dialogCount"></span></div>
+          <div id="dialogTracks" class="track-list dialog-tracks"></div>
+        </div>
+      </dialog>
+
+      <div id="toastRegion" class="toast-region" aria-live="polite"></div>
+      <audio id="audio" crossorigin="anonymous" preload="metadata"></audio>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
